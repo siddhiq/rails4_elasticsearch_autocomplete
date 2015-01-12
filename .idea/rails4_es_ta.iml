@@ -152,6 +152,8 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.1.8, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.1.8, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v5.0.1.20140414130214, RVM: ruby-2.1.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="autoprefixer-rails (v4.0.2.2, RVM: ruby-2.1.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.2.0.2, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.5.1, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.1, RVM: ruby-2.1.0-p0) [gem]" level="application" />
@@ -159,8 +161,6 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.8.0, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="elasticsearch (v1.0.6, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="elasticsearch-api (v1.0.6, RVM: ruby-2.1.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="elasticsearch-model (v0.1.6, RVM: ruby-2.1.0-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="elasticsearch-rails (v0.1.6, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="elasticsearch-transport (v1.0.6, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.2, RVM: ruby-2.1.0-p0) [gem]" level="application" />
@@ -187,6 +187,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.5, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="searchkick (v0.8.5, RVM: ruby-2.1.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.1.0, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v1.2.0, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.12.3, RVM: ruby-2.1.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.2.2, RVM: ruby-2.1.0-p0) [gem]" level="application" />

@@ -1,21 +1,16 @@
-<%= form_tag books_path, method: :get do %>
-    <div class="field">
-      <%= label_tag :query, 'Search Book' %>
-      <%= text_field_tag :query %>
-      <%= submit_tag 'Search' %>
-    </div>
-<% end %>
+<h1>
+  <%= link_to 'Add New Book', new_book_path, class: 'btn btn-success' %>
+</h1>
+
 
 <% if @books.present? %>
-    <h1>Listing books</h1>
+    <h1>Books</h1>
 
-    <table>
+    <table class="table table-hover">
       <thead>
       <tr>
         <th>Title</th>
         <th>Author</th>
-        <th>Description</th>
-        <th>Price</th>
         <th colspan="3"></th>
       </tr>
       </thead>
@@ -25,8 +20,6 @@
           <tr>
             <td><%= book.title %></td>
             <td><%= book.author %></td>
-            <td><%= book.description %></td>
-            <td><%= book.price %></td>
             <td><%= link_to 'Show', book %></td>
             <td><%= link_to 'Edit', edit_book_path(book) %></td>
             <td><%= link_to 'Destroy', book, method: :delete, data: {confirm: 'Are you sure?'} %></td>
@@ -34,6 +27,17 @@
       <% end %>
       </tbody>
     </table>
-    <br>
+    <h1>
+      <%= link_to 'Search Again', books_path, class: 'btn btn-primary' %>
+    </h1>
+<% else %>
+    <div class="books-search">
+      <h1>Search Books</h1>
+      <%= form_tag books_path, method: :get do %>
+          <div class="form-group">
+            <%= text_field_tag :query, params[:query], class: 'form-control typeahead' %>
+            <%= submit_tag 'Search', class: 'btn btn-primary' %>
+          </div>
+      <% end %>
+    </div>
 <% end %>
-<%= link_to 'New Book', new_book_path %>

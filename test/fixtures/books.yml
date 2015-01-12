@@ -3,11 +3,7 @@
 one:
   title: MyString
   author: MyString
-  description: MyString
-  price: MyString
 
 two:
   title: MyString
   author: MyString
-  description: MyString
-  price: MyString

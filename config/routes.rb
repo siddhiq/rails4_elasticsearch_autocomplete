@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  resources :books
+  resources :books do
+    collection do
+      get :autocomplete
+    end
+  end
+
+  root to: 'books#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
