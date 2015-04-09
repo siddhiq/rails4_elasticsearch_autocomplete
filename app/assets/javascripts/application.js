@@ -2,6 +2,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require typeahead.bundle.min
+//= require typeahead.bundle
 //= require books
 //= require_tree .
